@@ -22,7 +22,7 @@ Install my-project with npm
 ```
     
 ```bash
-import { NavBar } from 'react-adaptive-navbar';
+import { Nav } from 'react-adaptive-navbar';
 import { BrowserRouter } from 'react-router-dom';
 
 const LINKS = [{
@@ -40,7 +40,7 @@ const LINKS = [{
 export const Example = () => 
         <>
             <BrowserRouter>
-                <NavBar 
+                <Nav 
                     bg='#0b4a91' 
                     font=''Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif' 
                     nav = LINKS

@@ -1,6 +1,6 @@
 {
     "name": "react-adaptive-navbar",
-    "version": "1.0.14",
+    "version": "1.0.15",
     "description": "Navbar component used for both mobile and non mobile web apps",
     "main": "dist/index.js",
     "module": "dist/index.js",
