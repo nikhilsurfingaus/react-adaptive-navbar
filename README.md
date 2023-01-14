@@ -23,6 +23,8 @@ Install my-project with npm
     
 ```bash
 import { NavBar } from 'react-adaptive-navbar';
+import { BrowserRouter } from 'react-router-dom';
+
 const LINKS = [{
         display: "Empty",
         url: "/1",
@@ -36,11 +38,15 @@ const LINKS = [{
         url: "/3",
     }]
 export const Example = () => 
-        <NavBar 
-            bg='#0b4a91' 
-            font=''Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif' 
-            nav = LINKS
-        />
+        <>
+            <BrowserRouter>
+                <NavBar 
+                    bg='#0b4a91' 
+                    font=''Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif' 
+                    nav = LINKS
+                />
+            </BrowserRouter>
+        </>
 ```
 ## Props
 

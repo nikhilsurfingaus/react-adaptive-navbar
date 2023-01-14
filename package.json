@@ -1,9 +1,10 @@
 {
     "name": "react-adaptive-navbar",
-    "version": "1.0.12",
+    "version": "1.0.14",
     "description": "Navbar component used for both mobile and non mobile web apps",
     "main": "dist/index.js",
-    "module": "dist/index.es.js",
+    "module": "dist/index.js",
+    "type": "module",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "storybook": "start-storybook -p 6006",
@@ -12,7 +13,12 @@
     },
     "author": "Nikhil Naik",
     "license": "MIT",
-    "keywords": ["navbar", "nav", "header", "react"],
+    "keywords": [
+        "navbar",
+        "nav",
+        "header",
+        "react"
+    ],
     "devDependencies": {
         "@babel/core": "^7.20.12",
         "@babel/preset-react": "^7.18.6",
